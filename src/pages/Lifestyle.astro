@@ -1,0 +1,284 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<Layout>
+  <Header />
+  <main class="w-full bg-gray-200 dark:bg-gray-800 py-12">
+    <div class="grid grid-cols-3 gap-8 px-4 max-w-6xl mx-auto">
+      <!-- Primer Producto -->
+      <article
+        class="max-w-sm w-full bg-white rounded-lg shadow-lg overflow-hidden dark:bg-gray-700"
+      >
+        <div>
+          <img
+            class="object-cover h-64 w-full"
+            src="/fotos/wade.png"
+            alt="camiseta lakers"
+          />
+        </div>
+
+        <div class="flex flex-col gap-1 mt-4 px-4">
+          <h2 class="text-lg font-semibold text-gray-800 dark:text-gray-50">
+            Camiseta Li - ning Wade
+          </h2>
+          <span class="font-normal text-gray-600 dark:text-gray-300"
+            >Novedad</span
+          >
+          <span class="font-semibold text-gray-800 dark:text-gray-50"
+            >€39,99</span
+          >
+        </div>
+
+        <div class="mt-4 p-4 border-t border-gray-200 dark:border-gray-500">
+          <button
+            class="w-full flex justify-between items-center font-bold cursor-pointer hover:underline text-gray-800 dark:text-gray-50"
+          >
+            <span class="text-base">Add to Cart</span>
+            <svg
+              class="h-6 w-6"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+            </svg>
+          </button>
+        </div>
+      </article>
+      <!-- Segundo producto -->
+      <article
+        class="max-w-sm w-full bg-white rounded-lg shadow-lg overflow-hidden dark:bg-gray-700"
+      >
+        <div>
+          <img
+            class="object-cover h-64 w-full"
+            src="/fotos/pantalon.png"
+            alt="camiseta curry"
+          />
+        </div>
+
+        <div class="flex flex-col gap-1 mt-4 px-4">
+          <h2 class="text-lg font-semibold text-gray-800 dark:text-gray-50">
+            Pantalón largo Jordan Essentials Statement Wash Fleece
+          </h2>
+          <span class="font-normal text-gray-600 dark:text-gray-300"
+            >Novedad</span
+          >
+          <span class="font-semibold text-gray-800 dark:text-gray-50"
+            >€48.99</span
+          >
+        </div>
+
+        <div class="mt-4 p-4 border-t border-gray-200 dark:border-gray-500">
+          <button
+            class="w-full flex justify-between items-center font-bold cursor-pointer hover:underline text-gray-800 dark:text-gray-50"
+          >
+            <span class="text-base">Add to Cart</span>
+            <svg
+              class="h-6 w-6"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+            </svg>
+          </button>
+        </div>
+      </article>
+      <!-- tercer producto -->
+      <article
+        class="max-w-sm w-full bg-white rounded-lg shadow-lg overflow-hidden dark:bg-gray-700"
+      >
+        <div>
+          <img
+            class="object-cover h-64 w-full"
+            src="/fotos/gorro.png"
+            alt="giannis camiseta"
+          />
+        </div>
+
+        <div class="flex flex-col gap-1 mt-4 px-4">
+          <h2 class="text-lg font-semibold text-gray-800 dark:text-gray-50">
+            Gorro New Era NBA Knit Miami Heat City Edition 2024-2025
+          </h2>
+          <span class="font-normal text-gray-600 dark:text-gray-300"
+            >Novedad</span
+          >
+          <span class="font-semibold text-gray-800 dark:text-gray-50"
+            >€34,99</span
+          >
+        </div>
+
+        <div class="mt-4 p-4 border-t border-gray-200 dark:border-gray-500">
+          <button
+            class="w-full flex justify-between items-center font-bold cursor-pointer hover:underline text-gray-800 dark:text-gray-50"
+          >
+            <span class="text-base">Add to Cart</span>
+            <svg
+              class="h-6 w-6"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+            </svg>
+          </button>
+        </div>
+      </article>
+      <!-- Cuarto producto -->
+      <article
+        class="max-w-sm w-full bg-white rounded-lg shadow-lg overflow-hidden dark:bg-gray-700"
+      >
+        <div>
+          <img
+            class="object-cover h-64 w-full"
+            src="/fotos/chaqueta.png"
+            alt="zapatilla"
+          />
+        </div>
+
+        <div class="flex flex-col gap-1 mt-4 px-4">
+          <h2 class="text-lg font-semibold text-gray-800 dark:text-gray-50">
+            Chaqueta Jordan Jayson Tatum Chicago
+          </h2>
+          <span class="font-normal text-gray-600 dark:text-gray-300"
+            >Nuevo Modelo</span
+          >
+          <span class="font-semibold text-gray-800 dark:text-gray-50"
+            >€104,99</span
+          >
+        </div>
+        <div class="mt-4 p-4 border-t border-gray-200 dark:border-gray-500">
+          <button
+            class="w-full flex justify-between items-center font-bold cursor-pointer hover:underline text-gray-800 dark:text-gray-50"
+          >
+            <span class="text-base">Add to Cart</span>
+            <svg
+              class="h-6 w-6"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+            </svg>
+          </button>
+        </div>
+      </article>
+      <!-- Quinto producto -->
+      <article
+        class="max-w-sm w-full bg-white rounded-lg shadow-lg overflow-hidden dark:bg-gray-700"
+      >
+        <div>
+          <img
+            class="object-cover h-64 w-full"
+            src="/fotos/toystory.png"
+            alt="camiseta lamelo"
+          />
+        </div>
+
+        <div class="flex flex-col gap-1 mt-4 px-4">
+          <h2 class="text-lg font-semibold text-gray-800 dark:text-gray-50">
+            Calcetines Stance Best Friends Crew
+          </h2>
+          <span class="font-normal text-gray-600 dark:text-gray-300"
+            >Oferton</span
+          >
+          <span class="font-semibold text-gray-800 dark:text-gray-50"
+            >€9,99</span
+          >
+        </div>
+
+        <div class="mt-4 p-4 border-t border-gray-200 dark:border-gray-500">
+          <button
+            class="w-full flex justify-between items-center font-bold cursor-pointer hover:underline text-gray-800 dark:text-gray-50"
+          >
+            <span class="text-base">Add to Cart</span>
+            <svg
+              class="h-6 w-6"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+            </svg>
+          </button>
+        </div>
+      </article>
+      <!-- Sexto producto -->
+      <article
+        class="max-w-sm w-full bg-white rounded-lg shadow-lg overflow-hidden dark:bg-gray-700"
+      >
+        <div>
+          <img
+            class="object-cover h-64 w-full"
+            src="/fotos/chanclas.png"
+            alt="zapatilla"
+          />
+        </div>
+
+        <div class="flex flex-col gap-1 mt-4 px-4">
+          <h2 class="text-lg font-semibold text-gray-800 dark:text-gray-50">
+            Chanclas Jordan Jumpman Slide
+          </h2>
+          <span class="font-normal text-gray-600 dark:text-gray-300"
+            >Nuevo Modelo</span
+          >
+          <span class="font-semibold text-gray-800 dark:text-gray-50"
+            >€35,99</span
+          >
+        </div>
+
+        <div class="mt-4 p-4 border-t border-gray-200 dark:border-gray-500">
+          <button
+            class="w-full flex justify-between items-center font-bold cursor-pointer hover:underline text-gray-800 dark:text-gray-50"
+          >
+            <span class="text-base">Add to Cart</span>
+            <svg
+              class="h-6 w-6"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M12 6v6m0 0v6m0-6h6m-6 0H6"></path>
+            </svg>
+          </button>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <Footer />
+</Layout>
